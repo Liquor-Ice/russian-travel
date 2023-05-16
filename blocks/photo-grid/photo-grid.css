@@ -1,5 +1,5 @@
 .photo-grid {
-  max-width: 1184px;
+  width: calc(100% - 96px);
   padding: 92px 0;
   display: grid;
   gap: 16px;
