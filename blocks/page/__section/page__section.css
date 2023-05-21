@@ -1,0 +1,15 @@
+.page__section {
+  margin-bottom: 92px;
+}
+
+@media (max-width: 1020px) {
+  .page__section {
+    margin-bottom: clamp(88px, 11vw, 92px);
+  }
+}
+
+@media (max-width: 720px) {
+  .page__section {
+    margin-bottom: clamp(64px, 20vw, 88px);
+  }
+}

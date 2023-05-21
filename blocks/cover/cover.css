@@ -1,0 +1,13 @@
+.cover {
+  aspect-ratio: 16 / 10;
+  background-image: url('../../images/cover-background.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+@media (max-width: 1120px) {
+  .cover {
+    width: 100%;
+  }
+}

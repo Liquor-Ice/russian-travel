@@ -1,4 +1,17 @@
 .places {
-  width: calc(100% - 96px);
-  max-width: 984px;
+  display: grid;
+  gap: 80px;
+}
+
+@media (max-width: 976px) {
+  .places {
+    gap: clamp(73px, 7.9vw, 80px);
+  }
+}
+
+@media (max-width: 632px) {
+  .places {
+    width: 100%;
+    gap: clamp(50px, 9.5vw, 73px);
+  }
 }
