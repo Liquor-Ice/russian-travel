@@ -10,6 +10,6 @@
 
 **Ссылка**
 
-* [Ссылка на проект в GitHub Pages](#)
+* [Ссылка на проект в GitHub Pages](https://liquor-ice.github.io/russian-travel/index.html)
 
 Спасибо!
