@@ -1,4 +1,9 @@
 .header__leng-link {
   text-decoration: none;
   color: #fff;
+  transition: opacity .5s;
+}
+
+.header__leng-link:hover {
+  opacity: .8;
 }
